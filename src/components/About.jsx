@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import profileImg from "../../public/sunilProfessional.jpg";
+import profileImg from "../assets/Images/sunilProfessional.jpg";
+import { aboutInfo } from "../assets/assets.js";
 
 const About = () => {
   return (
@@ -60,7 +61,18 @@ const About = () => {
               </p>
               {/* cards */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {aboutInfo.map}
+                {aboutInfo.map((data, index) => (
+                  <div
+                    key={index}
+                    className="bg-[var(--dark-300)] rounded-2xl p-6 transition-transform duration-300 hover:translate-y-2 cursor-pointer "
+                  >
+                    <div className="text-purple-600 text-4xl mb-4">
+                      <data.icon />
+                    </div>
+                    <h3 className="text-xl font-semibold mb-3">{data.title}</h3>
+                    <p className="text-gray-400">{data.description}</p>
+                  </div>
+                ))}
               </div>
             </div>
           </motion.div>

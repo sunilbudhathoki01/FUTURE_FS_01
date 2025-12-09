@@ -5,13 +5,13 @@ import { FaXmark } from "react-icons/fa6";
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <nav className="fixed w-full z-50 bg-dark-100/90 backdrop-blur-sm py-4 px-8 shadow-lg">
+    <nav className="fixed w-full z-50  bg-[#0a0a0a]/95 backdrop-blur-sm py-4 px-8 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <a href="#" className="text-3xl font-bold text-white">
             Sunil
-            <span className="text-purple-800 group">Budhathoki</span>
-            <div className="w-4 h-4 bg-purple-800 group rounded-full"></div>
+            <span className="text-purple-600 group">Budhathoki</span>
+            <div className="w-4 h-4 bg-purple-600 group rounded-full"></div>
           </a>
         </div>
         <div className="hidden md:flex space-x-10">
