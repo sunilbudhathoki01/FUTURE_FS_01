@@ -1,12 +1,18 @@
 import {
+  FaCloud,
+  FaCode,
   FaDatabase,
   FaLightbulb,
+  FaMobileAlt,
   FaNodeJs,
   FaPaintBrush,
   FaReact,
   FaServer,
   FaStripe,
+  FaTools,
 } from "react-icons/fa";
+import profileImg from "../assets/Images/sunilProfessional.jpg";
+import projectImg1 from "../assets/Images/profileImg1.jpg";
 
 export const assests = {
   profileImg,
@@ -15,19 +21,22 @@ export const aboutInfo = [
   {
     icon: FaLightbulb,
     title: "Innovative",
-    description: "I love creating unique solution to complex problems",
+    description:
+      "I love creating unique solution to complex problems with cutting-edge technologies.",
     color: "text-purple",
   },
   {
     icon: FaPaintBrush,
     title: "Design Oriented",
-    description: "Beautiful design and user experience",
+    description:
+      "Beautiful design and user experience are at the heart of everything i create.",
     color: "text-pink",
   },
   {
     icon: FaCode,
     title: "Clean code",
-    description: "clean and tidy code",
+    description:
+      "I write maintainable,efficient code following best pratices and modern patterns.",
     color: "text-purple",
   },
 ];
@@ -40,16 +49,39 @@ export const skills = [
     tags: ["react", "vue.js", "Angular", "Typescript"],
   },
   {
-    icon: FaServer,
-    title: "Backend development",
-    description: "creating robust server side application and RESTful APIs",
-    tags: ["Node", "Django", "Express", "laravel"],
+    icon: FaNodeJs,
+    title: "Backend Development",
+    description:
+      "Creating powerful, scalable server-side applications and REST APIs.",
+    tags: ["Node.js", "Express.js", "Django", "Laravel", "NestJS"],
   },
   {
-    icon: FaServer,
-    title: "database management",
-    description: "building database store for managing data ",
-    tags: ["postgresssql", "sql", "mongoose", "mongodb"],
+    icon: FaDatabase,
+    title: "Database Management",
+    description:
+      "Designing optimized and secure databases for application needs.",
+    tags: ["MongoDB", "PostgreSQL", "MySQL", "Firebase", "Mongoose"],
+  },
+  {
+    icon: FaMobileAlt,
+    title: "Mobile Development",
+    description:
+      "Building cross-platform mobile applications with modern technologies.",
+    tags: ["React Native", "Flutter", "Android", "iOS"],
+  },
+  {
+    icon: FaCloud,
+    title: "Cloud & DevOps",
+    description:
+      "Deploying and maintaining applications with best DevOps practices.",
+    tags: ["AWS", "Docker", "Kubernetes", "CI/CD", "Vercel", "Netlify"],
+  },
+  {
+    icon: FaTools,
+    title: "Tools & Technologies",
+    description:
+      "Using modern tools to enhance productivity and collaboration.",
+    tags: ["Git", "GitHub", "VS Code", "Postman", "Figma"],
   },
 ];
 
