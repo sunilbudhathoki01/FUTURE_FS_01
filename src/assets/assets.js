@@ -11,8 +11,10 @@ import {
   FaStripe,
   FaTools,
 } from "react-icons/fa";
-import profileImg from "../assets/Images/sunilProfessional.jpg";
-import projectImg1 from "../assets/Images/profileImg1.jpg";
+import profileImg from "../assets/Images/profileImg.png";
+import profileImg2 from "../assets/Images/profileImg2.jpg";
+import profileImg3 from "../assets/Images/profileImg3.jpg";
+import image from "../assets/Images/image.png";
 
 export const assests = {
   profileImg,
@@ -87,60 +89,41 @@ export const skills = [
 
 export const projects = [
   {
-    title: "Ecommerce-platform",
+    title: "E-book store",
     description:
-      "A full featured online store with shopping cart,user authentication and payment processing",
-    image: projectImg1,
+      "A modern, full-stack e-book store platform built using the MERN stack (MongoDB, Express, React, Node.js). Features include secure authentication, dynamic catalog browsing, and efficient state management for a seamless user experience.",
+    image: profileImg,
+    tech: ["react", "node", "mongodb", "express"],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Gym App",
+    description:
+      "An intuitive fitness companion that takes the guesswork out of training. The app allows users to create custom routines, track sets, reps, and weight, and visualize their journey toward specific fitness goals. It's the perfect tool for consistent, data-driven personal training.",
+    image: profileImg2,
     tech: ["react", "node", "mongodb", "stripe"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "#",
     code: "#",
   },
   {
-    title: "Ecommerce-platform",
+    title: "MegaMartX",
     description:
-      "A full featured online store with shopping cart,user authentication and payment processing",
-    image: projectImg1,
+      "A robust e-commerce application built on the MERN stack, designed for high scalability. Features include: secure JWT-based user authentication, dynamic product filtering, integrated shopping cart management, and a streamlined multi-step checkout process.",
+    image: profileImg3,
     tech: ["react", "node", "mongodb", "stripe"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "#",
     code: "#",
   },
+
   {
-    title: "Ecommerce-platform",
+    title: "shopNexa",
     description:
-      "A full featured online store with shopping cart,user authentication and payment processing",
-    image: projectImg1,
-    tech: ["react", "node", "mongodb", "stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Ecommerce-platform",
-    description:
-      "A full featured online store with shopping cart,user authentication and payment processing",
-    image: projectImg1,
-    tech: ["react", "node", "mongodb", "stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Task Management App",
-    description:
-      "A full featured online store with shopping cart,user authentication and payment processing",
-    image: projectImg1,
-    tech: ["react", "node", "mongodb", "stripe"],
-    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
-    demo: "#",
-    code: "#",
-  },
-  {
-    title: "Ecommerce-platform",
-    description:
-      "A full featured online store with shopping cart,user authentication and payment processing",
-    image: projectImg1,
+      "Developed a large-scale e-commerce solution engineered for high concurrency and zero downtime. Features a microservices-inspired architecture to ensure robust performance and flexibility, alongside advanced Redis caching and database optimization for rapid product retrieval under massive load.",
+    image: image,
     tech: ["react", "node", "mongodb", "stripe"],
     icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
     demo: "#",
@@ -150,35 +133,11 @@ export const projects = [
 
 export const workData = [
   {
-    role: "senior frontend developer",
+    role: " backend developer",
     company: "TechCorp Inc",
-    duration: "2020-present",
+    duration: "2024-2025",
     description:
-      "leading frontend development for enterprise clients,implementing modern frameworks,and mentoring junior developer",
-    color: "purple",
-  },
-  {
-    role: "senior frontend developer",
-    company: "TechCorp Inc",
-    duration: "2020-present",
-    description:
-      "leading frontend development for enterprise clients,implementing modern frameworks,and mentoring junior developer",
-    color: "purple",
-  },
-  {
-    role: "senior frontend developer",
-    company: "TechCorp Inc",
-    duration: "2020-present",
-    description:
-      "leading frontend development for enterprise clients,implementing modern frameworks,and mentoring junior developer",
-    color: "purple",
-  },
-  {
-    role: "web developer",
-    company: "Digital solution LLC",
-    duration: "2010-2020",
-    description:
-      "leading frontend development for enterprise clients,implementing modern frameworks,and mentoring junior developer",
+      "junior backend development for enterprise clients,implementing modern frameworks.",
     color: "purple",
   },
 ];
