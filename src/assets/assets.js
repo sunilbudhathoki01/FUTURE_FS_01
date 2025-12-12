@@ -97,6 +97,36 @@ export const projects = [
     code: "#",
   },
   {
+    title: "Ecommerce-platform",
+    description:
+      "A full featured online store with shopping cart,user authentication and payment processing",
+    image: projectImg1,
+    tech: ["react", "node", "mongodb", "stripe"],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Ecommerce-platform",
+    description:
+      "A full featured online store with shopping cart,user authentication and payment processing",
+    image: projectImg1,
+    tech: ["react", "node", "mongodb", "stripe"],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    demo: "#",
+    code: "#",
+  },
+  {
+    title: "Ecommerce-platform",
+    description:
+      "A full featured online store with shopping cart,user authentication and payment processing",
+    image: projectImg1,
+    tech: ["react", "node", "mongodb", "stripe"],
+    icons: [FaReact, FaNodeJs, FaDatabase, FaStripe],
+    demo: "#",
+    code: "#",
+  },
+  {
     title: "Task Management App",
     description:
       "A full featured online store with shopping cart,user authentication and payment processing",
@@ -119,6 +149,22 @@ export const projects = [
 ];
 
 export const workData = [
+  {
+    role: "senior frontend developer",
+    company: "TechCorp Inc",
+    duration: "2020-present",
+    description:
+      "leading frontend development for enterprise clients,implementing modern frameworks,and mentoring junior developer",
+    color: "purple",
+  },
+  {
+    role: "senior frontend developer",
+    company: "TechCorp Inc",
+    duration: "2020-present",
+    description:
+      "leading frontend development for enterprise clients,implementing modern frameworks,and mentoring junior developer",
+    color: "purple",
+  },
   {
     role: "senior frontend developer",
     company: "TechCorp Inc",
